@@ -62,3 +62,21 @@ h6 {
 }
 
 /*Working styles*/
+main {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  justify-items: center;
+  align-content: center;
+}
+
+header {
+  display: grid;
+  width: 100vw;
+  justify-content: center;
+  align-content: center;
+  margin-top: 2rem;
+  grid-template-columns: 2fr 1fr;
+  padding-right: 30vw;
+  padding-left: 30vw;
+}
